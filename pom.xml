@@ -35,15 +35,7 @@
                         <goals>
                             <goal>cobertura</goal>
                         </goals>
-                        <configuration>
-                            <transformers>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.cobertura.resource.ManifestResourceTransformer">
-                                    <mainClass>hello.HelloWorld</mainClass>
-                                </transformer>
-                            </transformers>
-                        </configuration>
-                    </execution>
+                     </execution>
                 </executions>
             </plugin>
         </plugins>
