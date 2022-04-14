@@ -29,7 +29,6 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>$(cobertura.version)</version>
-                <type>maven-plugin</type>
                 <executions>
                     <execution>
                         <phase>package</phase>
